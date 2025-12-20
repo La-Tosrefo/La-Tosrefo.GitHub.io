@@ -1,1 +1,1191 @@
-Hello World
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="پاسخ جامع به پرسش مهر ۱۴۰۴–۱۴۰۵ با تمرکز بر تحلیل آیه شریفه و کاربرد آن در زندگی فردی و اجتماعی، همراه با نماپاد مستند، مثال‌های عملی.">
+    <meta name="keywords"
+        content="پرسش مهر ۱۴۰۴, آیه اعراف ۳۱, اعتدال در مصرف, اسراف, زندگی فردی, زندگی اجتماعی, جشنواره دانش‌آموزی">
+    <meta name="author" content="[نام دانش‌آموز یا گروه]">
+    <title>پاسخ به پرسش مهر ۱۴۰۴–۱۴۰۵: معنا و عمل «کُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا»</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parastoo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/iransans-fontface@latest/css/iransans.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/shabnam-font@5.0.0/dist/font-face.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dana:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-yekan@1.0.0/dist/font-face.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sahel-font@3.4.0/dist/font-face.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Estedad:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        footer .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.5rem;
+            width: 100%;
+            max-width: none;
+            text-align: right;
+        }
+
+        @media (max-width: 640px) {
+            footer .container {
+                align-items: center;
+            }
+        }
+
+        :root {
+            --primary-color: #266cce;
+            --secondary-color: #1e7e34;
+            --background-light: #f9fafb;
+            --background-dark: #2c3034;
+            --text-primary: #1a202c;
+            --text-secondary: #4a5568;
+            --border-color: #cbd5e0;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+            --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+            --transition-fast: all 0.15s ease-in-out;
+            --transition-medium: all 0.25s ease-in-out;
+            --transition-slow: all 0.4s ease-in-out;
+        }
+
+        html,
+        body {
+            font-family: 'Yekan', sans-serif;
+            line-height: 1.8;
+            scroll-behavior: smooth;
+            background-color: var(--background-light);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Parastoo', serif;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            font-weight: 700;
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        p {
+            font-family: 'Yekan', sans-serif;
+            font-size: 1.1rem;
+            margin-bottom: 1.25rem;
+            color: var(--text-primary);
+        }
+
+        ul li {
+            font-family: 'Yekan', sans-serif;
+            font-size: 1.05rem;
+            margin-bottom: 0.75rem;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-md);
+            transition: background-color var(--transition-medium);
+        }
+
+        nav ul li a {
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            transition: var(--transition-medium);
+            color: #ffffff;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #edf2f7, #f7fafc);
+            padding: 4rem 2rem;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.6), transparent);
+            opacity: 0.6;
+            transition: opacity var(--transition-slow);
+        }
+
+        .hero:hover::before {
+            opacity: 0.8;
+        }
+
+        .section-divider {
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .section-divider::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 120px;
+            height: 3px;
+            background-color: var(--secondary-color);
+            transition: width var(--transition-medium);
+        }
+
+        .section-divider:hover::after {
+            width: 200px;
+        }
+
+        .quote-block {
+            background-color: #edf2f7;
+            border-right: 5px solid var(--primary-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+            box-shadow: var(--shadow-sm);
+            font-family: 'Estedad', serif;
+            color: var(--text-secondary);
+            transition: box-shadow var(--transition-medium);
+        }
+
+        .quote-block:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .example-list li {
+            position: relative;
+            padding-right: 2rem;
+            transition: color var(--transition-fast);
+        }
+
+        .example-list li:hover {
+            color: var(--secondary-color);
+        }
+
+        .example-list li::before {
+            content: '\2022';
+            position: absolute;
+            right: -1.5rem;
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+        }
+
+        .table-custom {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 2rem 0;
+            box-shadow: var(--shadow-md);
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+        .table-custom th {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-weight: 600;
+        }
+
+        .table-custom td {
+            border: 1px solid var(--border-color);
+            padding: 1rem;
+            text-align: right;
+            transition: background-color var(--transition-fast);
+        }
+
+        .table-custom tr:hover td {
+            background-color: #edf2f7;
+        }
+
+        video {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 0.5rem;
+            box-shadow: var(--shadow-lg);
+            margin: 2rem auto;
+            display: block;
+            transition: box-shadow var(--transition-medium);
+        }
+
+        video:hover {
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+        }
+
+        button {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: var(--transition-medium);
+            box-shadow: var(--shadow-sm);
+        }
+
+        button:hover {
+            background-color: #1b5e20;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+        }
+
+        button:focus {
+            outline: none;
+            border: 2px solid var(--primary-color);
+        }
+
+        footer a {
+            color: #ffffff;
+            transition: var(--transition-fast);
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.375rem;
+            font-size: 1rem;
+            transition: var(--transition-fast);
+        }
+
+        form input:focus,
+        form textarea:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 2rem auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 2px;
+            height: 100%;
+            background-color: var(--border-color);
+        }
+
+        .timeline-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 16px;
+            height: 16px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: background-color var(--transition-fast);
+        }
+
+        .timeline-item:hover::before {
+            background-color: var(--secondary-color);
+        }
+
+        .timeline-content {
+            width: 45%;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: box-shadow var(--transition-medium);
+        }
+
+        .timeline-content:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .timeline-content.right {
+            margin-left: auto;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+
+            .timeline::before {
+                left: 1rem;
+            }
+
+            .timeline-item {
+                flex-direction: column;
+            }
+
+            .timeline-content {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+
+            .timeline-content.right {
+                margin-left: 0;
+            }
+        }
+
+        @media (min-width: 641px) and (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                max-width: 720px;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .container {
+                max-width: 960px;
+            }
+        }
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+            .container {
+                max-width: 1140px;
+            }
+        }
+
+        @media (min-width: 1281px) {
+            .container {
+                max-width: 1320px;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        section {
+            animation: fadeIn 0.8s ease-out forwards;
+            opacity: 0;
+        }
+
+        section:nth-child(odd) {
+            animation-delay: 0.2s;
+        }
+
+        section:nth-child(even) {
+            animation-delay: 0.4s;
+        }
+
+        .hover-scale {
+            padding: 0 60px;
+            transition: var(--transition-slow);
+        }
+
+        .hover-scale:hover {
+            transform: scale(1.03);
+        }
+
+        *:focus {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        @media print {
+            body {
+                background-color: white;
+                color: black;
+            }
+
+            a {
+                color: black;
+                text-decoration: underline;
+            }
+
+            button {
+                display: none;
+            }
+
+            video,
+            audio {
+                display: none;
+            }
+        }
+
+        .new-section {
+            padding: 4rem 2rem;
+            background-color: var(--background-light);
+            border-top: 1px solid var(--border-color);
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .new-section h2 {
+            color: var(--secondary-color);
+        }
+
+        body {
+            font-family: 'Yekan', sans-serif;
+            line-height: 1.8;
+            scroll-behavior: smooth;
+            background-color: var(--background-light);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        footer {
+            background-color: var(--background-dark);
+            color: #ffffff;
+            padding: 2rem 1rem;
+        }
+
+        footer .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.5rem;
+        }
+
+        footer div {
+            text-align: right;
+        }
+
+        .timeline::before {
+            right: 1rem;
+        }
+
+        .timeline-item {
+            align-items: flex-end;
+            padding-right: 3rem;
+        }
+
+        .timeline-item::before {
+            right: 1.5rem;
+            transform: translateY(-50%);
+        }
+
+        .timeline-content {
+            width: 100%;
+            order: 2;
+        }
+
+        .timeline-content.right {
+            order: 2;
+            margin-right: 0;
+        }
+
+        footer .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.5rem;
+            flex-direction: column;
+        }
+
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+
+        .hamburger div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 5px;
+            transition: all 0.3s ease;
+        }
+
+        @media (min-width: 768px) {
+            .hamburger {
+                display: none;
+            }
+        }
+
+        footer {
+            background-color: #f9f9f9;
+            color: #ffffff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        footer .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            max-width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ffffff;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #007bff;
+            padding: 1rem;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        p,
+        ul li,
+        .quote-block p,
+        .timeline-content p {
+            text-align: justify;
+            text-justify: auto;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: right;
+        }
+
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 0 1rem;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 1024px) {
+            header {
+                display: none;
+            }
+        }
+
+        nav ul li a:hover {
+            background-color: transparent !important;
+            box-shadow: none !important;
+            color: #ffd700;
+            text-decoration: underline;
+        }
+
+        h1:hover {
+            color: var(--primary-color) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header" class="text-white py-6 px-6 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold tracking-wide">پرسش مهر ۱۴۰۴–۱۴۰۵:
+                «کُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا»</h1>
+            <nav id="menu">
+                <ul
+                    class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 md:space-x-reverse text-lg font-semibold">
+                    <li><a href="#home" class="hover:underline hover:text-yellow-300 transition-all">خانه</a></li>
+                    <li><a href="#aye" class="hover:underline hover:text-yellow-300 transition-all">آیه</a></li>
+                    <li><a href="#tahlil" class="hover:underline hover:text-yellow-300 transition-all">تحلیل</a>
+                    </li>
+                    <li><a href="#video" class="hover:underline hover:text-yellow-300 transition-all">ویدئو</a></li>
+                    <li><a href="#amal" class="hover:underline hover:text-yellow-300 transition-all">تبدیل به
+                            عمل</a>
+                    </li>
+                    <li><a href="#pazhuhesh" class="hover:underline hover:text-yellow-300 transition-all">پژوهش و
+                            منابع</a></li>
+                    <li><a href="#timeline" class="hover:underline hover:text-yellow-300 transition-all">زمان‌بندی
+                            جشنواره</a></li>
+                    <li><a href="#natije" class="hover:underline hover:text-yellow-300 transition-all">نتیجه</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero py-16 px-6">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 section-divider">آیه شریفه و پیام کلیدی</h2>
+                <p class="text-xl md:text-2xl lg:text-3xl mb-6 font-bold">كُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا، إِنَّهُ
+                    لَا يُحِبُّ الْمُسْرِفِينَ</p>
+                <p class="text-lg md:text-xl lg:text-2xl mb-6">ترجمه: بخورید و بیاشامید، ولی اسراف نکنید که او
+                    اسرافکاران را دوست ندارد. (سوره اعراف، آیه ۳۱)</p>
+                <p class="text-lg mb-8 leading-relaxed">پیام کلیدی این آیه شریفه، دعوت به مصرف نعمات الهی با اعتدال،
+                    مسئولیت و احترام به منابع فردی و جمعی است. این پیام نه تنها به خوردن و نوشیدن محدود نمی‌شود، بلکه
+                    شامل مدیریت وقت، انرژی، منابع آموزشی، اجتماعی، دیجیتال و حتی منابع طبیعی می‌گردد. در دنیای امروز،
+                    جایی که مصرف‌گرایی رواج دارد و منابع محدود هستند، عمل به این آیه می‌تواند به پایداری محیط زیست،
+                    عدالت اجتماعی، سلامت فردی و تقویت روابط جمعی کمک کند. این آیه بخشی از آموزه‌های قرآنی است که تعادل
+                    بین بهره‌برداری از نعمات و پرهیز از زیاده‌روی را تأکید می‌کند، و می‌تواند راهنمایی برای سبک زندگی
+                    مدرن باشد.</p>
+                <p class="text-lg mb-8 leading-relaxed">در زمینه جشنواره پرسش مهر، این آیه به عنوان موضوع اصلی انتخاب
+                    شده تا دانش‌آموزان را به تفکر در مورد چگونگی اعمال اعتدال در زندگی روزمره ترغیب کند.</p>
+                <p class="text-lg mb-8 leading-relaxed">برای درک بهتر، این آیه را می‌توان به عنوان شاه‌کلیدی برای تغذیه
+                    جسمی و روحی دانست، جایی که اسراف نه تنها به هدررفت مادی منجر می‌شود، بلکه به آسیب‌های معنوی و
+                    اجتماعی نیز دامن می‌زند. در ادامه، به بررسی دقیق‌تر پیام آیه و کاربردهای آن می‌پردازیم.</p>
+            </div>
+            <div class="hover-scale">
+                <img src="./Assets/Images/EtedalDarMasraf.png" alt="تصویر نمادین اعتدال در مصرف"
+                    class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <section id="aye" class="py-12 px-6 bg-white new-section">
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-3">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 section-divider">پیام آیه شریفه</h2>
+                <p class="text-lg mb-6 leading-relaxed">آیه شریفه «كُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا، إِنَّهُ لَا
+                    يُحِبُّ الْمُسْرِفِينَ» از سوره اعراف، آیه ۳۱، یکی از آموزه‌های کلیدی قرآن کریم است که بر پرهیز از
+                    اسراف و اعتدال در مصرف تأکید دارد. این آیه نه تنها به جنبه‌های مادی زندگی اشاره می‌کند، بلکه ابعاد
+                    معنوی، اخلاقی و اجتماعی را نیز در بر می‌گیرد. خداوند متعال در این آیه، انسان را به بهره‌برداری از
+                    نعمات دعوت می‌کند، اما با شرط عدم زیاده‌روی، زیرا اسراف با محبت الهی منافات دارد.</p>
+                <p class="text-lg mb-6 leading-relaxed">پیام اصلی آیه، دعوت به مصرف آگاهانه و مسئولانه است. خداوند نعمات
+                    را برای بهره‌برداری انسان آفریده، اما با شرط عدم اسراف. این آموزه در زندگی مدرن، جایی که مصرف‌گرایی
+                    رواج دارد، اهمیت دوچندان پیدا می‌کند و می‌تواند به کاهش هدررفت منابع جهانی کمک کند. برای مثال، در
+                    تفاسیر قرآنی، اسراف به عنوان عملی تعریف شده که مال را تلف می‌کند و به بدن آسیب می‌رساند، همان‌طور که
+                    امام صادق (ع) فرموده‌اند: «إنّما الإسراف فيما أتلف المال و أضرّ بالبدن».</p>
+                <p class="text-lg mb-6 leading-relaxed">این آیه در زمینه سرگذشت حضرت آدم (ع) در بهشت قرار دارد، جایی که
+                    پوشش و زینت‌های مادی و معنوی مورد تأکید است. بنابراین، پیام آیه فراتر از غذا و نوشیدنی است و شامل
+                    تمام جنبه‌های مصرف، از جمله وقت، انرژی و منابع طبیعی می‌شود. در جامعه امروز، عمل به این آیه می‌تواند
+                    به مقابله با مشکلات زیست‌محیطی مانند آلودگی و کمبود منابع کمک کند.</p>
+                <p class="text-lg mb-6 leading-relaxed">علاوه بر این، آیه به عنوان شاه‌کلیدی برای تغذیه جسمی و روحی عمل
+                    می‌کند. در روایات، تأکید شده که صرفه‌جویی محبوب خداوند است و بهره‌گیری از زینت و غذا باید دور از
+                    اسراف باشد. این پیام می‌تواند در آموزش‌های دانش‌آموزی، مانند جشنواره پرسش مهر، برای تربیت نسل جوان
+                    به کار گرفته شود.</p>
+                <p class="text-lg mb-6 leading-relaxed">در نهایت، پیام آیه دعوتی به تعادل است: بهره‌برداری از نعمات بدون
+                    زیاده‌روی، که منجر به رضایت الهی و سعادت دنیوی و اخروی می‌شود. این آیه بخشی از نظام اخلاقی اسلام است
+                    که تعادل بین دنیا و آخرت را ترویج می‌کند.</p>
+                <div class="quote-block">
+                    <p>بخورید و بیاشامید و اسراف نکنید که خداوند مسرفان را دوست ندارد. (قرآن
+                        کریم، اعراف:۳۱)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tahlil" class="bg-gray-50 py-12 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 section-divider">تحلیل پیام آیه</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold mb-4">در زندگی فردی</h3>
+                    <p class="text-lg mb-6 leading-relaxed">در سطح فردی، این آیه بر مصرف به‌جا و آگاهانه تمرکز دارد.
+                        برای مثال، در مدیریت شخصی منابع مانند غذا، آب و انرژی، فرد باید از هدررفت جلوگیری کند. این
+                        رویکرد نه تنها به سلامت جسمی کمک می‌کند، بلکه به آرامش روحی نیز منجر می‌شود، زیرا اسراف اغلب با
+                        احساس گناه همراه است. همچنین، در مدیریت وقت، مانند برنامه‌ریزی مطالعه یا کار، اعتدال کلید موفقیت
+                        است. اسراف در وقت می‌تواند به خستگی و کاهش بهره‌وری منجر شود، در حالی که اعتدال انرژی را حفظ
+                        می‌کند.</p>
+                    <p class="text-lg mb-6 leading-relaxed">از دیدگاه روایات، امام علی (ع) اسراف را به عنوان عملی که مال
+                        را تلف می‌کند و به بدن آسیب می‌رساند، توصیف کرده‌اند. بنابراین، در زندگی فردی، اعمال این آیه
+                        می‌تواند به بهبود سلامت تغذیه‌ای کمک کند، مانند انتخاب وعده‌های متعادل برای جلوگیری از
+                        بیماری‌های مرتبط با پرخوری یا کمبود مواد مغذی.</p>
+                    <p class="text-lg mb-6 leading-relaxed">علاوه بر این، در جنبه‌های معنوی، آیه به زینت مادی و معنوی
+                        اشاره دارد. فرد باید در آرایش و پوشش نیز اعتدال را رعایت کند، که این به اعتماد به نفس و رضایت
+                        درونی منجر می‌شود. در دنیای دیجیتال امروز، اعتدال در استفاده از شبکه‌های اجتماعی می‌تواند از
+                        اعتیاد و اتلاف وقت جلوگیری کند.</p>
+                    <p class="text-lg mb-6 leading-relaxed">تحلیل عمیق‌تر نشان می‌دهد که اسراف فردی می‌تواند به مشکلات
+                        روانی مانند اضطراب منجر شود، در حالی که اعتدال به تعادل روحی کمک می‌کند. این آیه می‌تواند
+                        راهنمایی برای سبک زندگی سالم باشد، همان‌طور که در تفاسیر مدرن تأکید شده است.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold mb-4">در زندگی اجتماعی</h3>
+                    <p class="text-lg mb-6 leading-relaxed">در سطح اجتماعی، پیام آیه شامل کار گروهی، مشارکت، احترام به
+                        منابع عمومی و توانمندسازی است. در جامعه، اسراف فردی می‌تواند به کمبود منابع برای دیگران منجر
+                        شود. برای نمونه، در مدارس یا جوامع محلی، صرفه‌جویی جمعی در مصرف آب یا برق، به حفظ محیط زیست و
+                        عدالت کمک می‌کند. این آیه همچنین به مسئولیت اجتماعی در برابر نسل‌های آینده اشاره دارد.</p>
+                    <p class="text-lg mb-6 leading-relaxed">از منظر اجتماعی، اسراف می‌تواند به نابرابری اقتصادی دامن
+                        بزند، جایی که ثروتمندان منابع را هدر می‌دهند و فقرا از آن محروم می‌شوند. عمل به آیه می‌تواند به
+                        توزیع عادلانه منابع کمک کند، همان‌طور که در روایات تأکید شده که اسراف از اخلاق فرعونی است.</p>
+                    <p class="text-lg mb-6 leading-relaxed">در زمینه فرهنگی، آیه به مشارکت در فعالیت‌های گروهی تشویق
+                        می‌کند، مانند پروژه‌های محیط زیستی که منابع را حفظ می‌کنند. در جامعه ایرانی، این می‌تواند به
+                        مقابله با مشکلات مانند خشکسالی کمک کند، با تأکید بر صرفه‌جویی جمعی.</p>
+                    <p class="text-lg mb-6 leading-relaxed">تحلیل اجتماعی نشان می‌دهد که عمل به این آیه می‌تواند به
+                        تقویت پیوندهای اجتماعی منجر شود، زیرا اعتدال حس مسئولیت جمعی را افزایش می‌دهد.</p>
+                    <p class="text-lg mb-6 leading-relaxed">در نهایت، آیه بخشی از یک نظام اخلاقی بزرگ‌تر در اسلام است که
+                        تعادل بین فرد و جامعه را ترویج می‌کند، و می‌تواند به ساخت جامعه‌ای پایدار کمک کند.</p>
+                </div>
+            </div>
+            <div class="quote-block mt-8">
+                <p>صرفه‌جویی، محبوب خداوند است و بهره‌گیری از نعمات باید دور از اسراف باشد.</p>
+            </div>
+            <table class="table-custom mt-8">
+                <thead>
+                    <tr>
+                        <th>جنبه تحلیل</th>
+                        <th>زندگی فردی</th>
+                        <th>زندگی اجتماعی</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>مصرف منابع</td>
+                        <td>مدیریت شخصی غذا و انرژی برای سلامت</td>
+                        <td>صرفه‌جویی جمعی برای حفظ منابع عمومی</td>
+                    </tr>
+                    <tr>
+                        <td>مدیریت وقت</td>
+                        <td>برنامه‌ریزی روزانه برای بهره‌وری</td>
+                        <td>مشارکت در فعالیت‌های گروهی بدون اتلاف</td>
+                    </tr>
+                    <tr>
+                        <td>جنبه معنوی</td>
+                        <td>تعادل روحی و جلوگیری از گناه</td>
+                        <td>تقویت عدالت و مسئولیت اجتماعی</td>
+                    </tr>
+                    <tr>
+                        <td>تأثیر زیست‌محیطی</td>
+                        <td>کاهش هدررفت شخصی</td>
+                        <td>حفظ محیط زیست برای نسل‌های آینده</td>
+                    </tr>
+                    <tr>
+                        <td>تأثیر اقتصادی</td>
+                        <td>صرفه‌جویی مالی فردی</td>
+                        <td>توزیع عادلانه منابع در جامعه</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="video" class="py-12 px-6 bg-white new-section">
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-8">
+            <div class="lg:col-span-3">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 section-divider">ویدئو نماپاد «روز با
+                    اعتدال»</h2>
+                <div class="flex justify-center mb-8">
+                    <video controls class="w-full rounded-lg shadow-xl border border-gray-300"
+                        aria-label="ویدئو نماپاد روز با اعتدال">
+                        <source src="path/to/your/video.mp4" type="video/mp4">
+                        مرورگر شما از تگ ویدئو پشتیبانی نمی‌کند.
+                    </video>
+                </div>
+                <p class="text-lg mb-6 leading-relaxed">این نماپاد چند دقیقه‌ای، به صورت مستندمحور، تفاوت بین مصرف
+                    بی‌رویه و مصرف آگاهانه را در زندگی روزمره مدرسه و جامعه به تصویر می‌کشد. با مثال‌های واقعی از
+                    دانش‌آموزان، نشان می‌دهد چگونه اعتدال می‌تواند به بهبود کیفیت زندگی کمک کند. ویدئو بر پایه تحقیقات
+                    میدانی ساخته شده تا جنبه‌های عملی پیام آیه را برجسته کند.</p>
+            </div>
+            <div class="lg:col-span-1 bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-4">جزئیات ویدئو</h3>
+                <ul class="list-disc pr-4">
+                    <li>مدت زمان: ۵ دقیقه</li>
+                    <li>تمرکز: اعتدال در زندگی روزمره</li>
+                    <li>سبک: مستند آموزشی</li>
+                    <li>عناصر: صحنه‌های کوتاه و روایت‌محور</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="amal" class="bg-gray-50 py-12 px-6 new-section">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 section-divider">تبدیل پیام به عمل: مثال‌های عملی
+                و کاربردی</h2>
+            <p class="text-lg mb-6 leading-relaxed">برای عملی کردن پیام آیه در زندگی روزمره، مثال‌های زیر پیشنهاد می‌شود
+                که بر اساس تجربیات واقعی، مطالعات فرهنگی و تفاسیر قرآنی تدوین شده‌اند. این مثال‌ها نه تنها ساده و قابل
+                اجرا هستند، بلکه به بهبود سبک زندگی کمک می‌کنند.</p>
+            <ul class="example-list space-y-4 text-lg">
+                <li><strong>مدیریت مصرف مواد غذایی:</strong> انتخاب وعده‌های متعادل، جلوگیری از دور ریختن غذا، و استفاده
+                    از روش‌های پایدار مانند خرید محلی برای کاهش هدررفت. در زندگی فردی، این به سلامت کمک می‌کند؛ در
+                    اجتماعی، به کاهش ضایعات غذایی در خانواده و جامعه منجر می‌شود. مثال: در مدرسه، کمپین «غذای بدون
+                    دورریز» می‌تواند اجرا شود. این رویکرد با روایات اسلامی سازگار است که اسراف در غذا را نهی می‌کند.
+                </li>
+                <li><strong>استفاده بهینه از وقت مطالعه:</strong> برنامه‌ریزی روزانه با تکنیک‌هایی مانند پومودورو برای
+                    افزایش بهره‌وری و جلوگیری از خستگی. این در فردی به تمرکز بهتر کمک می‌کند؛ در اجتماعی، به مشارکت در
+                    گروه‌های مطالعاتی بدون اتلاف منجر می‌شود. مثال: اپلیکیشن‌های زمان‌بندی برای دانش‌آموزان. اعتدال در
+                    وقت، بخشی از تعادل زندگی است که آیه به آن اشاره دارد.</li>
+                <li><strong>احترام به محیط مدرسه:</strong> صرفه‌جویی در مصرف آب، برق و کاغذ از طریق کمپین‌های گروهی
+                    دانش‌آموزی. این در فردی به حس مسئولیت می‌افزاید؛ در اجتماعی، به حفظ منابع عمومی کمک می‌کند. مثال:
+                    پروژه‌های بازیافت در مدارس. این مثال مستقیماً با احترام به نعمات الهی مرتبط است.</li>
+                <li><strong>فعالیت‌های گروهی فرهنگی و اجتماعی:</strong> شرکت در پروژه‌های مدرسه‌ای مانند کارگاه‌های محیط
+                    زیستی که بر تقسیم عادلانه منابع تمرکز دارند. این در فردی به رشد شخصی کمک می‌کند؛ در اجتماعی، به
+                    تقویت مشارکت می‌انجامد. مثال: رویدادهای فرهنگی با تمرکز بر اعتدال. چنین فعالیت‌هایی جامعه را به سمت
+                    عدالت سوق می‌دهد.</li>
+                <li><strong>مدیریت منابع دیجیتال:</strong> استفاده متعادل از فضای مجازی، مانند محدود کردن زمان شبکه‌های
+                    اجتماعی برای حفظ انرژی ذهنی و تمرکز بر محتوای مفید. این در فردی از اعتیاد جلوگیری می‌کند؛ در
+                    اجتماعی، به اشتراک‌گذاری محتوای مفید بدون اسراف کمک می‌کند. مثال: قوانین خانوادگی برای استفاده از
+                    گوشی. در عصر دیجیتال، این مثال مدرن از آیه است.</li>
+                <li><strong>صرفه‌جویی در مصرف انرژی:</strong> خاموش کردن لوازم برقی غیرضروری و استفاده از نور طبیعی. این
+                    در فردی به کاهش هزینه‌ها کمک می‌کند؛ در اجتماعی، به حفظ منابع ملی می‌انجامد. مثال: کمپین‌های انرژی
+                    در محله. این عمل به پایداری محیط زیست کمک می‌کند.</li>
+                <li><strong>مدیریت مالی شخصی:</strong> بودجه‌بندی ماهانه برای جلوگیری از خریدهای غیرضروری. این در فردی
+                    به استقلال مالی کمک می‌کند؛ در اجتماعی، به اقتصاد خانواده پایدار می‌انجامد. مثال: آموزش‌های مالی در
+                    مدارس. اسراف مالی، یکی از جنبه‌های نهی‌شده در آیه است.</li>
+                <li><strong>اعتدال در روابط اجتماعی:</strong> تعادل در ارتباطات برای جلوگیری از خستگی عاطفی. این در فردی
+                    به سلامت روانی کمک می‌کند؛ در اجتماعی، به روابط پایدار می‌انجامد. مثال: گروه‌های دوستی متعادل. تعادل
+                    در روابط، بخشی از سبک زندگی اسلامی است.</li>
+                <li><strong>حفظ منابع طبیعی:</strong> کاشت درخت و کاهش پلاستیک. این در فردی به حس رضایت می‌دهد؛ در
+                    اجتماعی، به محیط زیست کمک می‌کند. مثال: پروژه‌های سبز مدرسه‌ای. این مثال با مسئولیت نسبت به زمین
+                    سازگار است.</li>
+                <li><strong>اعتدال در ورزش و تفریح:</strong> برنامه‌ریزی برای فعالیت‌های بدنی بدون افراط. این در فردی به
+                    تناسب اندام کمک می‌کند؛ در اجتماعی، به فعالیت‌های گروهی سالم می‌انجامد. مثال: باشگاه‌های مدرسه‌ای.
+                    تعادل جسمی، بخشی از اعتدال کلی است.</li>
+            </ul>
+            <p class="text-lg mt-8 mb-6 leading-relaxed">این رفتارها نه تنها سبک زندگی فردی را ارتقا می‌دهند، بلکه به
+                حفظ منابع طبیعی، تقویت حس مسئولیت جمعی و حتی بهبود اقتصاد خانواده و جامعه کمک می‌کنند. بر اساس تفاسیر،
+                عمل به این مثال‌ها محبوب خداوند است و به سعادت می‌انجامد.</p>
+            <div class="quote-block">
+                <p>اسراف، دام شیطان است و اعتدال، کلید سعادت.</p>
+            </div>
+            <table class="table-custom">
+                <thead>
+                    <tr>
+                        <th>مثال عملی</th>
+                        <th>کاربرد فردی</th>
+                        <th>کاربرد اجتماعی</th>
+                        <th>ارتباط با آیه</th>
+                        <th>نکته فرهنگی</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>مدیریت غذا</td>
+                        <td>سلامت جسمی</td>
+                        <td>کاهش ضایعات</td>
+                        <td>پرهیز از اسراف در خوردن</td>
+                        <td>سازگار با سنت اسلامی</td>
+                    </tr>
+                    <tr>
+                        <td>مدیریت وقت</td>
+                        <td>بهره‌وری شخصی</td>
+                        <td>مشارکت گروهی</td>
+                        <td>اعتدال در مصرف انرژی</td>
+                        <td>برنامه‌ریزی روزمره</td>
+                    </tr>
+                    <tr>
+                        <td>محیط مدرسه</td>
+                        <td>مسئولیت فردی</td>
+                        <td>حفظ عمومی</td>
+                        <td>احترام به نعمات</td>
+                        <td>آموزش زیست‌محیطی</td>
+                    </tr>
+                    <tr>
+                        <td>فعالیت فرهنگی</td>
+                        <td>رشد شخصی</td>
+                        <td>تقویت جامعه</td>
+                        <td>کار گروهی بدون زیاده‌روی</td>
+                        <td>رویدادهای فرهنگی</td>
+                    </tr>
+                    <tr>
+                        <td>منابع دیجیتال</td>
+                        <td>سلامت ذهنی</td>
+                        <td>اشتراک مفید</td>
+                        <td>مدیریت وقت مدرن</td>
+                        <td>عصر دیجیتال</td>
+                    </tr>
+                    <tr>
+                        <td>صرفه‌جویی انرژی</td>
+                        <td>کاهش هزینه</td>
+                        <td>حفظ ملی</td>
+                        <td>پرهیز از هدررفت</td>
+                        <td>پایداری انرژی</td>
+                    </tr>
+                    <tr>
+                        <td>مدیریت مالی</td>
+                        <td>استقلال</td>
+                        <td>اقتصاد خانواده</td>
+                        <td>تعادل اقتصادی</td>
+                        <td>بودجه‌بندی اسلامی</td>
+                    </tr>
+                    <tr>
+                        <td>روابط اجتماعی</td>
+                        <td>سلامت عاطفی</td>
+                        <td>روابط پایدار</td>
+                        <td>اعتدال در تعاملات</td>
+                        <td>پیوندهای اجتماعی</td>
+                    </tr>
+                    <tr>
+                        <td>حفظ طبیعی</td>
+                        <td>رضایت شخصی</td>
+                        <td>محیط زیست</td>
+                        <td>مسئولیت نسل‌ها</td>
+                        <td>حفظ طبیعت</td>
+                    </tr>
+                    <tr>
+                        <td>ورزش و تفریح</td>
+                        <td>تناسب اندام</td>
+                        <td>فعالیت گروهی</td>
+                        <td>تعادل جسمی</td>
+                        <td>سلامت بدنی</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="pazhuhesh" class="py-12 px-6 bg-white new-section">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 section-divider">پژوهش و منابع: تحلیل عمیق و
+                    لینک‌های مرتبط</h2>
+                <p class="text-lg mb-6 leading-relaxed">این بخش به تحلیل پژوهشی پیام آیه می‌پردازد، با لینک به منابع
+                    قرآنی، تفاسیر و مطالعات اجتماعی برای عمق بیشتر. پژوهش‌ها نشان می‌دهند که عمل به این آیه می‌تواند به
+                    سیاست‌های آموزشی و اجتماعی تبدیل شود.</p>
+                <p class="text-lg mb-6 leading-relaxed">در تفاسیر قرآنی، آیه به عنوان دعوتی به تعادل توصیف شده است. برای
+                    مثال، در تفسیر نمونه، تأکید بر صرفه‌جویی به عنوان محبوب خداوند است. مطالعات اجتماعی مدرن، مانند
+                    گزارش‌های سازمان ملل در مورد پایداری، نشان می‌دهند که اسراف به مشکلات جهانی مانند تغییرات اقلیمی
+                    منجر می‌شود.</p>
+                <p class="text-lg mb-6 leading-relaxed">روایات ائمه (ع) نیز این آیه را گسترش می‌دهند: امام صادق (ع)
+                    اسراف را به تلف مال و آسیب بدن تعریف کرده‌اند. در زمینه آموزشی، کتاب‌های وزارت آموزش و پرورش در مورد
+                    اخلاق اسلامی، این آیه را به عنوان پایه تربیت شهروندی معرفی می‌کنند.</p>
+                <p class="text-lg mb-6 leading-relaxed">پژوهش‌های فرهنگی نشان می‌دهند که در جامعه ایرانی، عمل به این آیه
+                    می‌تواند به کاهش مصرف‌گرایی کمک کند. برای مثال، مقالات در مورد اصول تغذیه بر محور این آیه، تأکید بر
+                    تعادل غذایی دارند.</p>
+                <p class="text-lg mb-6 leading-relaxed">این پژوهش بر اساس منابع معتبر تدوین شده و می‌تواند به
+                    ایده‌پردازی در جشنواره کمک کند. لینک‌های زیر برای مطالعه بیشتر ارائه شده‌اند.</p>
+            </div>
+            <div>
+                <ul class="list-disc pr-6 space-y-4 text-lg">
+                    <li>تحقیق در تفاسیر قرآن: لینک به <a target="_blank" href="https://quran.com/7/31"
+                            class="text-blue-600 hover:underline">سوره اعراف آیه ۳۱ در Quran.com</a>. این سایت ترجمه و
+                        تفسیر دقیق ارائه می‌دهد. (با تمرکز بر جنبه‌های معنوی)</li>
+                    <li>مطالعات اجتماعی: مقاله‌ای در مورد اعتدال در مصرف منابع (مثال: گزارش سازمان ملل در پایداری، موجود
+                        در <a target="_blank" href="https://www.un.org/sustainabledevelopment/"
+                            class="text-blue-600 hover:underline">سایت سازمان ملل</a>). این گزارش‌ها به مسائل جهانی
+                        اشاره دارند.</li>
+                    <li>منابع آموزشی: کتاب‌های وزارت آموزش و پرورش در مورد اخلاق اسلامی، مانند کتاب‌های درسی اخلاق و
+                        قرآن. (برای دانش‌آموزان مناسب)</li>
+                    <li>روایات مرتبط: لینک به سایت‌هایی مانند <a target="_blank" href="https://wiki.ahlolbait.com"
+                            class="text-blue-600 hover:underline">دانشنامه اسلامی</a> برای روایات ائمه. (با جستجوی
+                        اسراف)</li>
+                    <li>مقالات پژوهشی: مقاله «تحلیل اصول تغذیه بر محور آیه کلوا و اشربوا ولا تسرفوا» در سایت‌های علمی
+                        مانند MagIran. (با تمرکز بر سلامت)</li>
+                    <li>تفسیر نمونه: لینک به <a target="_blank" href="https://tadabbor.org"
+                            class="text-blue-600 hover:underline">سایت
+                            تدبر در قرآن</a> برای تفسیر دقیق آیه. (با مثال‌های عملی)</li>
+                    <li>مطالعات زیست‌محیطی: گزارش‌های IUCN در مورد مصرف پایدار منابع طبیعی. (ارتباط با محیط زیست)</li>
+                    <li>پژوهش‌های اقتصادی: مقالات در مورد تأثیر اسراف بر اقتصاد خانواده و جامعه. (با آمار)</li>
+                    <li>منابع فرهنگی: کتاب‌های اخلاقی اسلامی مانند نهج‌البلاغه، که اسراف را از اخلاق فرعونی می‌داند. (با
+                        لینک به سایت‌های دیجیتال)</li>
+                    <li>سایت‌های آموزشی: لینک به <a target="_blank" href="https://www.irna.ir"
+                            class="text-blue-600 hover:underline">ایرنا</a> برای اخبار مرتبط با جشنواره پرسش مهر. (برای
+                        به‌روزرسانی)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="py-12 px-6 bg-gray-50 new-section">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 section-divider">زمان‌بندی جشنواره پرسش مهر</h2>
+            <p class="text-lg mb-6 leading-relaxed">زمان‌بندی تاریخ‌های کلیدی جشنواره را نشان می‌دهد، بر اساس اطلاعات
+                رسمی برای سال ۱۴۰۴-۱۴۰۵.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content left">
+                        <h4 class="text-lg font-bold">آغاز جشنواره</h4>
+                        <p>مهر ۱۴۰۴ - اعلام پرسش مهر توسط رئیس‌جمهور.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content right">
+                        <h4 class="text-lg font-bold">ثبت‌نام آثار</h4>
+                        <p>آبان ۱۴۰۴ - شروع ثبت‌نام از طریق سامانه نورینو.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content left">
+                        <h4 class="text-lg font-bold">مهلت ارسال</h4>
+                        <p>دی ۱۴۰۴ - آخرین مهلت ارسال آثار به مدارس.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content right">
+                        <h4 class="text-lg font-bold">داوری استانی</h4>
+                        <p>بهمن ۱۴۰۴ - داوری در سطح استان‌ها.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content left">
+                        <h4 class="text-lg font-bold">داوری ملی</h4>
+                        <p>اسفند ۱۴۰۴ - داوری نهایی و اعلام برگزیدگان.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content right">
+                        <h4 class="text-lg font-bold">مراسم اهدای جوایز</h4>
+                        <p>فروردین ۱۴۰۵ - مراسم با حضور مقامات.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="natije" class="bg-gray-200 py-12 px-6 text-center new-section">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 section-divider">نتیجه‌گیری و دعوت به اقدام</h2>
+            <p class="text-lg mb-8 leading-relaxed">عمل به پیام آیه شریفه نه تنها سبک زندگی فردی و اجتماعی را ارتقا
+                می‌دهد، بلکه به حفظ منابع، تقویت مشارکت و ساخت جامعه‌ای پایدار کمک می‌کند. این پاسخ به پرسش مهر، با
+                ترکیبی از تحلیل، ویدئو مستند و مثال‌های عملی، تعهد به اعتدال را نشان می‌دهد.</p>
+            <p class="text-lg mb-8 leading-relaxed">در نهایت، این آیه راهنمایی برای زندگی متعادل است که می‌تواند به
+                سعادت دنیوی و اخروی منجر شود. جشنواره پرسش مهر فرصتی برای ترویج این آموزه‌هاست.</p>
+        </div>
+    </section>
+
+    <footer class="py-8 px-6">
+        <div class="container mx-auto">
+            <p class="text-lg">نام صاحب اثر: محمد‌صالح نصرآبادی</p>
+            <p class="text-lg">کپی‌رایت © ۱۴۰۴ - تمام حقوق محفوظ است. این سایت برای جشنواره پرسش مهر طراحی شده.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const menu = document.getElementById('menu');
+
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+            menu.classList.toggle('flex-col');
+            menu.classList.toggle('absolute');
+            menu.classList.toggle('bg-blue-600');
+            menu.classList.toggle('top-16');
+            menu.classList.toggle('left-0');
+            menu.classList.toggle('w-full');
+            menu.classList.toggle('p-4');
+            menu.classList.toggle('shadow-md');
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const lazyElement = entry.target;
+                        if (lazyElement.tagName === 'IMG') {
+                            lazyElement.src = lazyElement.dataset.src;
+                        } else if (lazyElement.tagName === 'VIDEO') {
+                            lazyElement.load();
+                        }
+                        observer.unobserve(lazyElement);
+                    }
+                });
+            });
+
+            document.querySelectorAll('img[loading="lazy"], video').forEach(el => observer.observe(el));
+        }
+
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav a');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+            navLinks.forEach(link => {
+                link.classList.remove('text-yellow-300');
+                if (link.href.includes(current)) {
+                    link.classList.add('text-yellow-300');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
